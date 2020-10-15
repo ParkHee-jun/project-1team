@@ -11,24 +11,7 @@
     <meta name="keywords" content="">
     <link rel="canonical" href="">
     <meta name="theme-color" content="#310f72">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <!-- Favicon -->
-    <!-- <link rel="apple-touch-icon" sizes="57x57" href="img/favicon/apple-icon-57x57.png">
-    <link rel="apple-touch-icon" sizes="60x60" href="img/favicon/apple-icon-60x60.png">
-    <link rel="apple-touch-icon" sizes="72x72" href="img/favicon/apple-icon-72x72.png">
-    <link rel="apple-touch-icon" sizes="76x76" href="img/favicon/apple-icon-76x76.png">
-    <link rel="apple-touch-icon" sizes="114x114" href="img/favicon/apple-icon-114x114.png">
-    <link rel="apple-touch-icon" sizes="120x120" href="img/favicon/apple-icon-120x120.png">
-    <link rel="apple-touch-icon" sizes="144x144" href="img/favicon/apple-icon-144x144.png">
-    <link rel="apple-touch-icon" sizes="152x152" href="img/favicon/apple-icon-152x152.png">
-    <link rel="apple-touch-icon" sizes="180x180" href="img/favicon/apple-icon-180x180.png">
-    <link rel="icon" type="image/png" sizes="192x192" href="img/favicon/android-icon-192x192.png">
-    <link rel="icon" type="image/png" sizes="32x32" href="img/favicon/favicon-32x32.png">
-    <link rel="icon" type="image/png" sizes="96x96" href="img/favicon/favicon-96x96.png">
-    <link rel="icon" type="image/png" sizes="16x16" href="img/favicon/favicon-16x16.png"> -->
-    <link rel="manifest" href="img/favicon/manifest.json">
-    <meta name="msapplication-TileColor" content="#ffffff">
-    <meta name="msapplication-TileImage" content="img/favicon/ms-icon-144x144.png">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"> 
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
     <link rel="stylesheet" href="https://cdn.datatables.net/1.10.16/css/dataTables.bootstrap4.min.css">
@@ -44,48 +27,49 @@
 
 <body id="wrapper">
     <nav class="navbar navbar-expand-lg"> <!--상단 고정 바-->
-        <div class="container-fluid">
-          <a class="navbar-brand" href="index.html">
+        <a class="navbar-brand" href="../view/index.html">
             <img class="logo" src="../img/logo.png" alt="로고">COBWEB</a>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarToggler" aria-controls="navbarToggler" aria-label="Toggle navigation">
               <span class="navbar-toggler-icon"></span>
-            </button>
-          <div class="collapse navbar-collapse" id="navbarToggler">
-            <ul class="navbar-nav">
-              <li class="nav-item">
-                <a class="nav-link" href="../view/trade.html">Market</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="../view/wallet.html">Wallet</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="../view/dashbord.html">Dashbord</a>
-              </li>
-            </ul>
-            <ul class="navbar-nav ml-auto">
-              <li class="nav-item">
-                <a class="nav-link" href="#">Join us</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="../view/login.html">Login</a>
-              </li>
-            </ul>
-          </div>
+            </button>           
+            <div class="collapse navbar-collapse" id="navbarToggler">
+              <ul class="navbar-nav">
+                <li class="nav-item">
+                  <a class="nav-link" href="../view/trade.html">Market</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="../view/wallet.html">Wallet</a>
+                </li>                 
+              </ul>
+              <ul class="navbar-nav">
+                  <li class="nav-item dropdown">
+                      <a class="nav-link dropdown-toggle" href="../view/dashbord.html" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Dashbord</a>
+                      <div class="dropdown-menu" aria-labelledby="navbarDropdown">                         
+                          <a class="dropdown-item" href="#">Open Orders
+                      </a>
+                          <a class="dropdown-item" href="#">Oeder History
+                      </a>
+                          <a class="dropdown-item" href="../view/dashbord.html">Transaction History
+                      </a>
+                      </div>
+                  </li>
+              </ul>
+              <ul class="navbar-nav ml-auto">
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Join us</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="../view/login.html">Login</a>
+                </li>
+                </ul>
+            </div>
         </div>
       </nav>
     <header>
         <div class="sticky row no-margin">
             <div class="container">
                 <div class="row">
-                    <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12">
-                        <p><a href="#"><span></span><i></i></a></p>
-                    </div>
-                    <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12">
-                        <p><a href="#"><span></span><i></i></a></p>
-                    </div>
-                    <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12">
-                        <p><a href="#"><span></span><i></i></a></p>
-                    </div>
+                    -->
                 </div>
             </div>
     </header>
@@ -94,8 +78,8 @@
             <div class="row">
                 <div class="col-md-12">
                     <div class="head-splits name">
-                        <h4 class="title">BTC<span class="gray-color">/KRW</span></h4>
-                        <p>BTC</p>
+                        <h4 class="title">ETH<span class="gray-color">/KRW</span></h4>
+                        <p class="name">ETH</p>
                     </div>
                     <div class="head-splits">
                         <p class="small gray-color">Last Price</p>
@@ -124,24 +108,14 @@
                     <div class="left-side-widget">
                         <ul class="nav nav-tabs" id="myTab" role="tablist">
                             <li class="nav-item">
-                                <a class="nav-link active" id="buy-tab" data-toggle="tab" href="#buy" role="tab" aria-controls="buy" aria-selected="true"><img src="img/icons/buy.jpg"></a>
+                                <a class="nav-link active" id="buy-tab" data-toggle="tab" href="#buy" role="tab" aria-controls="buy" aria-selected="true"><img src="../img/icons/buy.jpg"></a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link" id="sell-tab" data-toggle="tab" href="#sell" role="tab" aria-controls="sell" aria-selected="false"><img src="img/icons/sell.jpg"></a>
-                            </li>
-                            <li class="">
-                                <div class="form-group">
-                                    <select class="form-control" id="sel1">
-                                        <option>4 Decimals</option>
-                                        <option>5 Decimals</option>
-                                        <option>6 Decimals</option>
-                                        <option>7 Decimals</option>
-                                    </select>
-                                </div>
-                            </li>
+                                <a class="nav-link" id="sell-tab" data-toggle="tab" href="#sell" role="tab" aria-controls="sell" aria-selected="false"><img src="../img/icons/sell.jpg"></a>
+                            </li>                            
                         </ul>
                         <div class="tab-content" id="myTabContent">
-                            <div class="tab-pane fade show active" id="buy" role="tabpanel" aria-labelledby="buy-tab">
+                            <div class="tab-pane fade show active" id="buy" role="tabpanel" aria-labelledby="buy-tab"> <!--구매 탭-->
                                 <table class="table">
                                     <thead>
                                         <tr>
@@ -156,115 +130,11 @@
                                             <td><a href="" class="gray-color">806,380</a></td>
                                             <td><a href="" class="gray-color">3.87062400</a></td>
                                         </tr>
-                                        <tr>
-                                            <td><a href="" class="green-color">0.00000481</a></td>
-                                            <td><a href="" class="gray-color">806,380</a></td>
-                                            <td><a href="" class="gray-color">3.87062400</a></td>
-                                        </tr>
-                                        <tr>
-                                            <td><a href="" class="green-color">0.00000481</a></td>
-                                            <td><a href="" class="gray-color">806,380</a></td>
-                                            <td><a href="" class="gray-color">3.87062400</a></td>
-                                        </tr>
-                                        <tr>
-                                            <td><a href="" class="green-color">0.00000481</a></td>
-                                            <td><a href="" class="gray-color">806,380</a></td>
-                                            <td><a href="" class="gray-color">3.87062400</a></td>
-                                        </tr>
-                                        <tr>
-                                            <td><a href="" class="green-color">0.00000481</a></td>
-                                            <td><a href="" class="gray-color">806,380</a></td>
-                                            <td><a href="" class="gray-color">3.87062400</a></td>
-                                        </tr>
-                                        <tr>
-                                            <td><a href="" class="green-color">0.00000481</a></td>
-                                            <td><a href="" class="gray-color">806,380</a></td>
-                                            <td><a href="" class="gray-color">3.87062400</a></td>
-                                        </tr>
-                                        <tr>
-                                            <td><a href="" class="green-color">0.00000481</a></td>
-                                            <td><a href="" class="gray-color">806,380</a></td>
-                                            <td><a href="" class="gray-color">3.87062400</a></td>
-                                        </tr>
-                                        <tr>
-                                            <td><a href="" class="green-color">0.00000481</a></td>
-                                            <td><a href="" class="gray-color">806,380</a></td>
-                                            <td><a href="" class="gray-color">3.87062400</a></td>
-                                        </tr>
-                                        <tr>
-                                            <td><a href="" class="green-color">0.00000481</a></td>
-                                            <td><a href="" class="gray-color">806,380</a></td>
-                                            <td><a href="" class="gray-color">3.87062400</a></td>
-                                        </tr>
-                                        <tr>
-                                            <td><a href="" class="green-color">0.00000481</a></td>
-                                            <td><a href="" class="gray-color">806,380</a></td>
-                                            <td><a href="" class="gray-color">3.87062400</a></td>
-                                        </tr>
-                                        <tr>
-                                            <td><a href="" class="green-color">0.00000481</a></td>
-                                            <td><a href="" class="gray-color">806,380</a></td>
-                                            <td><a href="" class="gray-color">3.87062400</a></td>
-                                        </tr>
-                                        <tr>
-                                            <td><a href="" class="green-color">0.00000481</a></td>
-                                            <td><a href="" class="gray-color">806,380</a></td>
-                                            <td><a href="" class="gray-color">3.87062400</a></td>
-                                        </tr>
-                                        <tr>
-                                            <td><a href="" class="green-color">0.00000481</a></td>
-                                            <td><a href="" class="gray-color">806,380</a></td>
-                                            <td><a href="" class="gray-color">3.87062400</a></td>
-                                        </tr>
-                                        <tr>
-                                            <td><a href="" class="green-color">0.00000481</a></td>
-                                            <td><a href="" class="gray-color">806,380</a></td>
-                                            <td><a href="" class="gray-color">3.87062400</a></td>
-                                        </tr>
-                                        <tr>
-                                            <td><a href="" class="green-color">0.00000481</a></td>
-                                            <td><a href="" class="gray-color">806,380</a></td>
-                                            <td><a href="" class="gray-color">3.87062400</a></td>
-                                        </tr>
-                                        <tr>
-                                            <td><a href="" class="green-color">0.00000481</a></td>
-                                            <td><a href="" class="gray-color">806,380</a></td>
-                                            <td><a href="" class="gray-color">3.87062400</a></td>
-                                        </tr>
-                                        <tr>
-                                            <td><a href="" class="green-color">0.00000481</a></td>
-                                            <td><a href="" class="gray-color">806,380</a></td>
-                                            <td><a href="" class="gray-color">3.87062400</a></td>
-                                        </tr>
-                                        <tr>
-                                            <td><a href="" class="green-color">0.00000481</a></td>
-                                            <td><a href="" class="gray-color">806,380</a></td>
-                                            <td><a href="" class="gray-color">3.87062400</a></td>
-                                        </tr>
-                                        <tr>
-                                            <td><a href="" class="green-color">0.00000481</a></td>
-                                            <td><a href="" class="gray-color">806,380</a></td>
-                                            <td><a href="" class="gray-color">3.87062400</a></td>
-                                        </tr>
-                                        <tr>
-                                            <td><a href="" class="green-color">0.00000481</a></td>
-                                            <td><a href="" class="gray-color">806,380</a></td>
-                                            <td><a href="" class="gray-color">3.87062400</a></td>
-                                        </tr>
-                                        <tr>
-                                            <td><a href="" class="green-color">0.00000481</a></td>
-                                            <td><a href="" class="gray-color">806,380</a></td>
-                                            <td><a href="" class="gray-color">3.87062400</a></td>
-                                        </tr>
-                                        <tr>
-                                            <td><a href="" class="green-color">0.00000481</a></td>
-                                            <td><a href="" class="gray-color">806,380</a></td>
-                                            <td><a href="" class="gray-color">3.87062400</a></td>
-                                        </tr>
+                                       
                                     </tbody>
                                 </table>
                             </div>
-                            <div class="tab-pane fade" id="sell" role="tabpanel" aria-labelledby="sell-tab">
+                            <div class="tab-pane fade" id="sell" role="tabpanel" aria-labelledby="sell-tab"> <!--판매 탭-->
                                 <table class="table">
                                     <thead>
                                         <tr>
@@ -278,112 +148,7 @@
                                             <td><a href="" class="red-color">0.00000481</a></td>
                                             <td><a href="" class="gray-color">806,380</a></td>
                                             <td><a href="" class="gray-color">3.87062400</a></td>
-                                        </tr>
-                                        <tr>
-                                            <td><a href="" class="red-color">0.00000481</a></td>
-                                            <td><a href="" class="gray-color">806,380</a></td>
-                                            <td><a href="" class="gray-color">3.87062400</a></td>
-                                        </tr>
-                                        <tr>
-                                            <td><a href="" class="red-color">0.00000481</a></td>
-                                            <td><a href="" class="gray-color">806,380</a></td>
-                                            <td><a href="" class="gray-color">3.87062400</a></td>
-                                        </tr>
-                                        <tr>
-                                            <td><a href="" class="red-color">0.00000481</a></td>
-                                            <td><a href="" class="gray-color">806,380</a></td>
-                                            <td><a href="" class="gray-color">3.87062400</a></td>
-                                        </tr>
-                                        <tr>
-                                            <td><a href="" class="red-color">0.00000481</a></td>
-                                            <td><a href="" class="gray-color">806,380</a></td>
-                                            <td><a href="" class="gray-color">3.87062400</a></td>
-                                        </tr>
-                                        <tr>
-                                            <td><a href="" class="red-color">0.00000481</a></td>
-                                            <td><a href="" class="gray-color">806,380</a></td>
-                                            <td><a href="" class="gray-color">3.87062400</a></td>
-                                        </tr>
-                                        <tr>
-                                            <td><a href="" class="red-color">0.00000481</a></td>
-                                            <td><a href="" class="gray-color">806,380</a></td>
-                                            <td><a href="" class="gray-color">3.87062400</a></td>
-                                        </tr>
-                                        <tr>
-                                            <td><a href="" class="red-color">0.00000481</a></td>
-                                            <td><a href="" class="gray-color">806,380</a></td>
-                                            <td><a href="" class="gray-color">3.87062400</a></td>
-                                        </tr>
-                                        <tr>
-                                            <td><a href="" class="red-color">0.00000481</a></td>
-                                            <td><a href="" class="gray-color">806,380</a></td>
-                                            <td><a href="" class="gray-color">3.87062400</a></td>
-                                        </tr>
-                                        <tr>
-                                            <td><a href="" class="red-color">0.00000481</a></td>
-                                            <td><a href="" class="gray-color">806,380</a></td>
-                                            <td><a href="" class="gray-color">3.87062400</a></td>
-                                        </tr>
-                                        <tr>
-                                            <td><a href="" class="red-color">0.00000481</a></td>
-                                            <td><a href="" class="gray-color">806,380</a></td>
-                                            <td><a href="" class="gray-color">3.87062400</a></td>
-                                        </tr>
-                                        <tr>
-                                            <td><a href="" class="red-color">0.00000481</a></td>
-                                            <td><a href="" class="gray-color">806,380</a></td>
-                                            <td><a href="" class="gray-color">3.87062400</a></td>
-                                        </tr>
-                                        <tr>
-                                            <td><a href="" class="red-color">0.00000481</a></td>
-                                            <td><a href="" class="gray-color">806,380</a></td>
-                                            <td><a href="" class="gray-color">3.87062400</a></td>
-                                        </tr>
-                                        <tr>
-                                            <td><a href="" class="red-color">0.00000481</a></td>
-                                            <td><a href="" class="gray-color">806,380</a></td>
-                                            <td><a href="" class="gray-color">3.87062400</a></td>
-                                        </tr>
-                                        <tr>
-                                            <td><a href="" class="red-color">0.00000481</a></td>
-                                            <td><a href="" class="gray-color">806,380</a></td>
-                                            <td><a href="" class="gray-color">3.87062400</a></td>
-                                        </tr>
-                                        <tr>
-                                            <td><a href="" class="red-color">0.00000481</a></td>
-                                            <td><a href="" class="gray-color">806,380</a></td>
-                                            <td><a href="" class="gray-color">3.87062400</a></td>
-                                        </tr>
-                                        <tr>
-                                            <td><a href="" class="red-color">0.00000481</a></td>
-                                            <td><a href="" class="gray-color">806,380</a></td>
-                                            <td><a href="" class="gray-color">3.87062400</a></td>
-                                        </tr>
-                                        <tr>
-                                            <td><a href="" class="red-color">0.00000481</a></td>
-                                            <td><a href="" class="gray-color">806,380</a></td>
-                                            <td><a href="" class="gray-color">3.87062400</a></td>
-                                        </tr>
-                                        <tr>
-                                            <td><a href="" class="red-color">0.00000481</a></td>
-                                            <td><a href="" class="gray-color">806,380</a></td>
-                                            <td><a href="" class="gray-color">3.87062400</a></td>
-                                        </tr>
-                                        <tr>
-                                            <td><a href="" class="red-color">0.00000481</a></td>
-                                            <td><a href="" class="gray-color">806,380</a></td>
-                                            <td><a href="" class="gray-color">3.87062400</a></td>
-                                        </tr>
-                                        <tr>
-                                            <td><a href="" class="red-color">0.00000481</a></td>
-                                            <td><a href="" class="gray-color">806,380</a></td>
-                                            <td><a href="" class="gray-color">3.87062400</a></td>
-                                        </tr>
-                                        <tr>
-                                            <td><a href="" class="red-color">0.00000481</a></td>
-                                            <td><a href="" class="gray-color">806,380</a></td>
-                                            <td><a href="" class="gray-color">3.87062400</a></td>
-                                        </tr>
+                                        </tr>                                        
                                     </tbody>
                                 </table>
                             </div>
@@ -574,20 +339,8 @@
                             <div class="right-side-widget">
                                 <ul class="nav nav-tabs" id="myTab" role="tablist">
                                     <li class="nav-item">
-                                        <a class="nav-link active" id="r-fav-tab" data-toggle="tab" href="#r-fav" role="tab" aria-controls="r-fav" aria-selected="true">Favorites</a>
-                                    </li>
-                                    <li class="nav-item">
-                                        <a class="nav-link" id="r-btc-tab" data-toggle="tab" href="#r-btc" role="tab" aria-controls="r-btc" aria-selected="false">BTC</a>
-                                    </li>
-                                    <li class="nav-item">
-                                        <a class="nav-link" id="r-eth-tab" data-toggle="tab" href="#r-eth" role="tab" aria-controls="r-eth" aria-selected="false">ETH</a>
-                                    </li>
-                                    <li class="nav-item">
-                                        <a class="nav-link" id="r-bnb-tab" data-toggle="tab" href="#r-bnb" role="tab" aria-controls="r-bnb" aria-selected="false">BNB</a>
-                                    </li>
-                                    <li class="nav-item">
-                                        <a class="nav-link" id="r-usdt-tab" data-toggle="tab" href="#r-usdt" role="tab" aria-controls="r-usdt" aria-selected="false">USDT</a>
-                                    </li>
+                                        <a class="nav-link active" id="r-fav-tab" data-toggle="tab" href="#r-fav" role="tab" aria-controls="r-fav" aria-selected="true">KRW</a>
+                                    </li>                                   
                                 </ul>
                                 <div class="tab-content" id="myTabContent">
                                     <div class="tab-pane fade show active" id="r-fav" role="tabpanel" aria-labelledby="r-fav-tab">
@@ -602,488 +355,17 @@
                                             <tbody>
                                                 <tr class="clickable-row" data-href="">
                                                     <td>
-                                                        <div class="star-inner">
-                                                            <input id="star1" type="checkbox" name="time" />
-                                                            <label for="star1"><i class="fas fa-star"></i></label>
-                                                            ETH/BTC
+                                                        <div>                                                            
+                                                            <label ><i></i></label>
+                                                            ETH/KRW
                                                         </div>
                                                     </td>
                                                     <td><span class="green-color">0.086583</span> </td>
                                                     <td><span class="red-color">-1.87</span></td>
-                                                </tr>
-                                                <tr class="clickable-row" data-href="">
-                                                    <td>
-                                                        <div class="star-inner">
-                                                            <input id="star1" type="checkbox" name="time" />
-                                                            <label for="star1"><i class="fas fa-star"></i></label>
-                                                            ETH/BTC
-                                                        </div>
-                                                    </td>
-                                                    <td><span class="red-color">0.086583</span> </td>
-                                                    <td><span class="green-color">-1.87</span></td>
-                                                </tr>
-                                                <tr class="clickable-row" data-href="">
-                                                    <td>
-                                                        <div class="star-inner">
-                                                            <input id="star1" type="checkbox" name="time" />
-                                                            <label for="star1"><i class="fas fa-star"></i></label>
-                                                            ETH/BTC
-                                                        </div>
-                                                    </td>
-                                                    <td><span class="green-color">0.086583</span> </td>
-                                                    <td><span class="red-color">-1.87</span></td>
-                                                </tr>
-                                                <tr class="clickable-row" data-href="">
-                                                    <td>
-                                                        <div class="star-inner">
-                                                            <input id="star1" type="checkbox" name="time" />
-                                                            <label for="star1"><i class="fas fa-star"></i></label>
-                                                            ETH/BTC
-                                                        </div>
-                                                    </td>
-                                                    <td><span class="green-color">0.086583</span> </td>
-                                                    <td><span class="red-color">-1.87</span></td>
-                                                </tr>
-                                                <tr class="clickable-row" data-href="">
-                                                    <td>
-                                                        <div class="star-inner">
-                                                            <input id="star1" type="checkbox" name="time" />
-                                                            <label for="star1"><i class="fas fa-star"></i></label>
-                                                            ETH/BTC
-                                                        </div>
-                                                    </td>
-                                                    <td><span class="red-color">0.086583</span> </td>
-                                                    <td><span class="green-color">-1.87</span></td>
-                                                </tr>
-                                                <tr class="clickable-row" data-href="">
-                                                    <td>
-                                                        <div class="star-inner">
-                                                            <input id="star1" type="checkbox" name="time" />
-                                                            <label for="star1"><i class="fas fa-star"></i></label>
-                                                            ETH/BTC
-                                                        </div>
-                                                    </td>
-                                                    <td><span class="green-color">0.086583</span> </td>
-                                                    <td><span class="red-color">-1.87</span></td>
-                                                </tr>
-                                                <tr class="clickable-row" data-href="">
-                                                    <td>
-                                                        <div class="star-inner">
-                                                            <input id="star1" type="checkbox" name="time" />
-                                                            <label for="star1"><i class="fas fa-star"></i></label>
-                                                            ETH/BTC
-                                                        </div>
-                                                    </td>
-                                                    <td><span class="green-color">0.086583</span> </td>
-                                                    <td><span class="red-color">-1.87</span></td>
-                                                </tr>
-                                                <tr class="clickable-row" data-href="">
-                                                    <td>
-                                                        <div class="star-inner">
-                                                            <input id="star1" type="checkbox" name="time" />
-                                                            <label for="star1"><i class="fas fa-star"></i></label>
-                                                            ETH/BTC
-                                                        </div>
-                                                    </td>
-                                                    <td><span class="red-color">0.086583</span> </td>
-                                                    <td><span class="green-color">-1.87</span></td>
-                                                </tr>
-                                                <tr class="clickable-row" data-href="">
-                                                    <td>
-                                                        <div class="star-inner">
-                                                            <input id="star1" type="checkbox" name="time" />
-                                                            <label for="star1"><i class="fas fa-star"></i></label>
-                                                            ETH/BTC
-                                                        </div>
-                                                    </td>
-                                                    <td><span class="green-color">0.086583</span> </td>
-                                                    <td><span class="red-color">-1.87</span></td>
-                                                </tr>
+                                                </tr>                                               
                                             </tbody>
                                         </table>
-                                    </div>
-                                    <div class="tab-pane fade" id="r-btc" role="tabpanel" aria-labelledby="r-btc-tab">
-                                        <table class="table row-border right-data-table table-hover" cellspacing="0" width="100%">
-                                            <thead>
-                                                <tr>
-                                                    <th width="120">Pair</th>
-                                                    <th>Price</th>
-                                                    <th>Change</th>
-                                                </tr>
-                                            </thead>
-                                            <tbody>
-                                                <tr class="clickable-row" data-href="">
-                                                    <td>
-                                                        <div class="star-inner">
-                                                            <input id="star1" type="checkbox" name="time" />
-                                                            <label for="star1"><i class="fas fa-star"></i></label>
-                                                            ETH/BTC
-                                                        </div>
-                                                    </td>
-                                                    <td><span class="green-color">0.086583</span> </td>
-                                                    <td><span class="red-color">-1.87</span></td>
-                                                </tr>
-                                                <tr class="clickable-row" data-href="">
-                                                    <td>
-                                                        <div class="star-inner">
-                                                            <input id="star1" type="checkbox" name="time" />
-                                                            <label for="star1"><i class="fas fa-star"></i></label>
-                                                            ETH/BTC
-                                                        </div>
-                                                    </td>
-                                                    <td><span class="red-color">0.086583</span> </td>
-                                                    <td><span class="green-color">-1.87</span></td>
-                                                </tr>
-                                                <tr class="clickable-row" data-href="">
-                                                    <td>
-                                                        <div class="star-inner">
-                                                            <input id="star1" type="checkbox" name="time" />
-                                                            <label for="star1"><i class="fas fa-star"></i></label>
-                                                            ETH/BTC
-                                                        </div>
-                                                    </td>
-                                                    <td><span class="green-color">0.086583</span> </td>
-                                                    <td><span class="red-color">-1.87</span></td>
-                                                </tr>
-                                                <tr class="clickable-row" data-href="">
-                                                    <td>
-                                                        <div class="star-inner">
-                                                            <input id="star1" type="checkbox" name="time" />
-                                                            <label for="star1"><i class="fas fa-star"></i></label>
-                                                            ETH/BTC
-                                                        </div>
-                                                    </td>
-                                                    <td><span class="green-color">0.086583</span> </td>
-                                                    <td><span class="red-color">-1.87</span></td>
-                                                </tr>
-                                                <tr class="clickable-row" data-href="">
-                                                    <td>
-                                                        <div class="star-inner">
-                                                            <input id="star1" type="checkbox" name="time" />
-                                                            <label for="star1"><i class="fas fa-star"></i></label>
-                                                            ETH/BTC
-                                                        </div>
-                                                    </td>
-                                                    <td><span class="red-color">0.086583</span> </td>
-                                                    <td><span class="green-color">-1.87</span></td>
-                                                </tr>
-                                                <tr class="clickable-row" data-href="">
-                                                    <td>
-                                                        <div class="star-inner">
-                                                            <input id="star1" type="checkbox" name="time" />
-                                                            <label for="star1"><i class="fas fa-star"></i></label>
-                                                            ETH/BTC
-                                                        </div>
-                                                    </td>
-                                                    <td><span class="green-color">0.086583</span> </td>
-                                                    <td><span class="red-color">-1.87</span></td>
-                                                </tr>
-                                                <tr class="clickable-row" data-href="">
-                                                    <td>
-                                                        <div class="star-inner">
-                                                            <input id="star1" type="checkbox" name="time" />
-                                                            <label for="star1"><i class="fas fa-star"></i></label>
-                                                            ETH/BTC
-                                                        </div>
-                                                    </td>
-                                                    <td><span class="green-color">0.086583</span> </td>
-                                                    <td><span class="red-color">-1.87</span></td>
-                                                </tr>
-                                                <tr class="clickable-row" data-href="">
-                                                    <td>
-                                                        <div class="star-inner">
-                                                            <input id="star1" type="checkbox" name="time" />
-                                                            <label for="star1"><i class="fas fa-star"></i></label>
-                                                            ETH/BTC
-                                                        </div>
-                                                    </td>
-                                                    <td><span class="red-color">0.086583</span> </td>
-                                                    <td><span class="green-color">-1.87</span></td>
-                                                </tr>
-                                                <tr class="clickable-row" data-href="">
-                                                    <td>
-                                                        <div class="star-inner">
-                                                            <input id="star1" type="checkbox" name="time" />
-                                                            <label for="star1"><i class="fas fa-star"></i></label>
-                                                            ETH/BTC
-                                                        </div>
-                                                    </td>
-                                                    <td><span class="green-color">0.086583</span> </td>
-                                                    <td><span class="red-color">-1.87</span></td>
-                                                </tr>
-                                            </tbody>
-                                        </table>
-                                    </div>
-                                    <div class="tab-pane fade" id="r-eth" role="tabpanel" aria-labelledby="r-eth-tab">
-                                        <table class="table row-border right-data-table table-hover" cellspacing="0" width="100%">
-                                            <thead>
-                                                <tr>
-                                                    <th width="120">Pair</th>
-                                                    <th>Price</th>
-                                                    <th>Change</th>
-                                                </tr>
-                                            </thead>
-                                            <tbody>
-                                                <tr class="clickable-row" data-href="">
-                                                    <td>
-                                                        <div class="star-inner">
-                                                            <input id="star1" type="checkbox" name="time" />
-                                                            <label for="star1"><i class="fas fa-star"></i></label>
-                                                            ETH/BTC
-                                                        </div>
-                                                    </td>
-                                                    <td><span class="green-color">0.086583</span> </td>
-                                                    <td><span class="red-color">-1.87</span></td>
-                                                </tr>
-                                                <tr class="clickable-row" data-href="">
-                                                    <td>
-                                                        <div class="star-inner">
-                                                            <input id="star1" type="checkbox" name="time" />
-                                                            <label for="star1"><i class="fas fa-star"></i></label>
-                                                            ETH/BTC
-                                                        </div>
-                                                    </td>
-                                                    <td><span class="red-color">0.086583</span> </td>
-                                                    <td><span class="green-color">-1.87</span></td>
-                                                </tr>
-                                                <tr class="clickable-row" data-href="">
-                                                    <td>
-                                                        <div class="star-inner">
-                                                            <input id="star1" type="checkbox" name="time" />
-                                                            <label for="star1"><i class="fas fa-star"></i></label>
-                                                            ETH/BTC
-                                                        </div>
-                                                    </td>
-                                                    <td><span class="green-color">0.086583</span> </td>
-                                                    <td><span class="red-color">-1.87</span></td>
-                                                </tr>
-                                                <tr class="clickable-row" data-href="">
-                                                    <td>
-                                                        <div class="star-inner">
-                                                            <input id="star1" type="checkbox" name="time" />
-                                                            <label for="star1"><i class="fas fa-star"></i></label>
-                                                            ETH/BTC
-                                                        </div>
-                                                    </td>
-                                                    <td><span class="green-color">0.086583</span> </td>
-                                                    <td><span class="red-color">-1.87</span></td>
-                                                </tr>
-                                                <tr class="clickable-row" data-href="">
-                                                    <td>
-                                                        <div class="star-inner">
-                                                            <input id="star1" type="checkbox" name="time" />
-                                                            <label for="star1"><i class="fas fa-star"></i></label>
-                                                            ETH/BTC
-                                                        </div>
-                                                    </td>
-                                                    <td><span class="red-color">0.086583</span> </td>
-                                                    <td><span class="green-color">-1.87</span></td>
-                                                </tr>
-                                                <tr class="clickable-row" data-href="">
-                                                    <td>
-                                                        <div class="star-inner">
-                                                            <input id="star1" type="checkbox" name="time" />
-                                                            <label for="star1"><i class="fas fa-star"></i></label>
-                                                            ETH/BTC
-                                                        </div>
-                                                    </td>
-                                                    <td><span class="green-color">0.086583</span> </td>
-                                                    <td><span class="red-color">-1.87</span></td>
-                                                </tr>
-                                                <tr class="clickable-row" data-href="">
-                                                    <td>
-                                                        <div class="star-inner">
-                                                            <input id="star1" type="checkbox" name="time" />
-                                                            <label for="star1"><i class="fas fa-star"></i></label>
-                                                            ETH/BTC
-                                                        </div>
-                                                    </td>
-                                                    <td><span class="green-color">0.086583</span> </td>
-                                                    <td><span class="red-color">-1.87</span></td>
-                                                </tr>
-                                            </tbody>
-                                        </table>
-                                    </div>
-                                    <div class="tab-pane fade" id="r-bnb" role="tabpanel" aria-labelledby="r-bnb-tab">
-                                        <table class="table row-border right-data-table table-hover" cellspacing="0" width="100%">
-                                            <thead>
-                                                <tr>
-                                                    <th width="120">Pair</th>
-                                                    <th>Price</th>
-                                                    <th>Change</th>
-                                                </tr>
-                                            </thead>
-                                            <tbody>
-                                                <tr class="clickable-row" data-href="">
-                                                    <td>
-                                                        <div class="star-inner">
-                                                            <input id="star1" type="checkbox" name="time" />
-                                                            <label for="star1"><i class="fas fa-star"></i></label>
-                                                            ETH/BTC
-                                                        </div>
-                                                    </td>
-                                                    <td><span class="green-color">0.086583</span> </td>
-                                                    <td><span class="red-color">-1.87</span></td>
-                                                </tr>
-                                                <tr class="clickable-row" data-href="">
-                                                    <td>
-                                                        <div class="star-inner">
-                                                            <input id="star1" type="checkbox" name="time" />
-                                                            <label for="star1"><i class="fas fa-star"></i></label>
-                                                            ETH/BTC
-                                                        </div>
-                                                    </td>
-                                                    <td><span class="red-color">0.086583</span> </td>
-                                                    <td><span class="green-color">-1.87</span></td>
-                                                </tr>
-                                                <tr class="clickable-row" data-href="">
-                                                    <td>
-                                                        <div class="star-inner">
-                                                            <input id="star1" type="checkbox" name="time" />
-                                                            <label for="star1"><i class="fas fa-star"></i></label>
-                                                            ETH/BTC
-                                                        </div>
-                                                    </td>
-                                                    <td><span class="green-color">0.086583</span> </td>
-                                                    <td><span class="red-color">-1.87</span></td>
-                                                </tr>
-                                                <tr class="clickable-row" data-href="">
-                                                    <td>
-                                                        <div class="star-inner">
-                                                            <input id="star1" type="checkbox" name="time" />
-                                                            <label for="star1"><i class="fas fa-star"></i></label>
-                                                            ETH/BTC
-                                                        </div>
-                                                    </td>
-                                                    <td><span class="green-color">0.086583</span> </td>
-                                                    <td><span class="red-color">-1.87</span></td>
-                                                </tr>
-                                                <tr class="clickable-row" data-href="">
-                                                    <td>
-                                                        <div class="star-inner">
-                                                            <input id="star1" type="checkbox" name="time" />
-                                                            <label for="star1"><i class="fas fa-star"></i></label>
-                                                            ETH/BTC
-                                                        </div>
-                                                    </td>
-                                                    <td><span class="green-color">0.086583</span> </td>
-                                                    <td><span class="red-color">-1.87</span></td>
-                                                </tr>
-                                            </tbody>
-                                        </table>
-                                    </div>
-                                    <div class="tab-pane fade" id="r-usdt" role="tabpanel" aria-labelledby="r-usdt-tab">
-                                        <table class="table row-border right-data-table table-hover" cellspacing="0" width="100%">
-                                            <thead>
-                                                <tr>
-                                                    <th width="120">Pair</th>
-                                                    <th>Price</th>
-                                                    <th>Change</th>
-                                                </tr>
-                                            </thead>
-                                            <tbody>
-                                                <tr class="clickable-row" data-href="">
-                                                    <td>
-                                                        <div class="star-inner">
-                                                            <input id="star1" type="checkbox" name="time" />
-                                                            <label for="star1"><i class="fas fa-star"></i></label>
-                                                            ETH/BTC
-                                                        </div>
-                                                    </td>
-                                                    <td><span class="green-color">0.086583</span> </td>
-                                                    <td><span class="red-color">-1.87</span></td>
-                                                </tr>
-                                                <tr class="clickable-row" data-href="">
-                                                    <td>
-                                                        <div class="star-inner">
-                                                            <input id="star1" type="checkbox" name="time" />
-                                                            <label for="star1"><i class="fas fa-star"></i></label>
-                                                            ETH/BTC
-                                                        </div>
-                                                    </td>
-                                                    <td><span class="red-color">0.086583</span> </td>
-                                                    <td><span class="green-color">-1.87</span></td>
-                                                </tr>
-                                                <tr class="clickable-row" data-href="">
-                                                    <td>
-                                                        <div class="star-inner">
-                                                            <input id="star1" type="checkbox" name="time" />
-                                                            <label for="star1"><i class="fas fa-star"></i></label>
-                                                            ETH/BTC
-                                                        </div>
-                                                    </td>
-                                                    <td><span class="green-color">0.086583</span> </td>
-                                                    <td><span class="red-color">-1.87</span></td>
-                                                </tr>
-                                                <tr class="clickable-row" data-href="">
-                                                    <td>
-                                                        <div class="star-inner">
-                                                            <input id="star1" type="checkbox" name="time" />
-                                                            <label for="star1"><i class="fas fa-star"></i></label>
-                                                            ETH/BTC
-                                                        </div>
-                                                    </td>
-                                                    <td><span class="red-color">0.086583</span> </td>
-                                                    <td><span class="green-color">-1.87</span></td>
-                                                </tr>
-                                                <tr class="clickable-row" data-href="">
-                                                    <td>
-                                                        <div class="star-inner">
-                                                            <input id="star1" type="checkbox" name="time" />
-                                                            <label for="star1"><i class="fas fa-star"></i></label>
-                                                            ETH/BTC
-                                                        </div>
-                                                    </td>
-                                                    <td><span class="green-color">0.086583</span> </td>
-                                                    <td><span class="red-color">-1.87</span></td>
-                                                </tr>
-                                                <tr class="clickable-row" data-href="">
-                                                    <td>
-                                                        <div class="star-inner">
-                                                            <input id="star1" type="checkbox" name="time" />
-                                                            <label for="star1"><i class="fas fa-star"></i></label>
-                                                            ETH/BTC
-                                                        </div>
-                                                    </td>
-                                                    <td><span class="red-color">0.086583</span> </td>
-                                                    <td><span class="green-color">-1.87</span></td>
-                                                </tr>
-                                                <tr class="clickable-row" data-href="">
-                                                    <td>
-                                                        <div class="star-inner">
-                                                            <input id="star1" type="checkbox" name="time" />
-                                                            <label for="star1"><i class="fas fa-star"></i></label>
-                                                            ETH/BTC
-                                                        </div>
-                                                    </td>
-                                                    <td><span class="green-color">0.086583</span> </td>
-                                                    <td><span class="red-color">-1.87</span></td>
-                                                </tr>
-                                                <tr class="clickable-row" data-href="">
-                                                    <td>
-                                                        <div class="star-inner">
-                                                            <input id="star1" type="checkbox" name="time" />
-                                                            <label for="star1"><i class="fas fa-star"></i></label>
-                                                            ETH/BTC
-                                                        </div>
-                                                    </td>
-                                                    <td><span class="green-color">0.086583</span> </td>
-                                                    <td><span class="red-color">-1.87</span></td>
-                                                </tr>
-                                                <tr class="clickable-row" data-href="">
-                                                    <td>
-                                                        <div class="star-inner">
-                                                            <input id="star1" type="checkbox" name="time" />
-                                                            <label for="star1"><i class="fas fa-star"></i></label>
-                                                            ETH/BTC
-                                                        </div>
-                                                    </td>
-                                                    <td><span class="green-color">0.086583</span> </td>
-                                                    <td><span class="red-color">-1.87</span></td>
-                                                </tr>
-                                            </tbody>
-                                        </table>
-                                    </div>
+                                    </div> 
                                 </div>
                             </div>
                         </div>
@@ -1102,95 +384,7 @@
                                             </td>
                                             <td><span class="green-color">0.086583</span> </td>
                                             <td><span class="red-color">-1.87</span></td>
-                                        </tr>
-                                        <tr class="clickable-row" data-href="">
-                                            <td>
-                                                <div class="star-inner">
-                                                    <input id="star1" type="checkbox" name="time" />
-                                                    <label for="star1"><i class="fas fa-star"></i></label>
-                                                    ETH/BTC
-                                                </div>
-                                            </td>
-                                            <td><span class="red-color">0.086583</span> </td>
-                                            <td><span class="green-color">-1.87</span></td>
-                                        </tr>
-                                        <tr class="clickable-row" data-href="">
-                                            <td>
-                                                <div class="star-inner">
-                                                    <input id="star1" type="checkbox" name="time" />
-                                                    <label for="star1"><i class="fas fa-star"></i></label>
-                                                    ETH/BTC
-                                                </div>
-                                            </td>
-                                            <td><span class="green-color">0.086583</span> </td>
-                                            <td><span class="red-color">-1.87</span></td>
-                                        </tr>
-                                        <tr class="clickable-row" data-href="">
-                                            <td>
-                                                <div class="star-inner">
-                                                    <input id="star1" type="checkbox" name="time" />
-                                                    <label for="star1"><i class="fas fa-star"></i></label>
-                                                    ETH/BTC
-                                                </div>
-                                            </td>
-                                            <td><span class="green-color">0.086583</span> </td>
-                                            <td><span class="red-color">-1.87</span></td>
-                                        </tr>
-                                        <tr class="clickable-row" data-href="">
-                                            <td>
-                                                <div class="star-inner">
-                                                    <input id="star1" type="checkbox" name="time" />
-                                                    <label for="star1"><i class="fas fa-star"></i></label>
-                                                    ETH/BTC
-                                                </div>
-                                            </td>
-                                            <td><span class="red-color">0.086583</span> </td>
-                                            <td><span class="green-color">-1.87</span></td>
-                                        </tr>
-                                        <tr class="clickable-row" data-href="">
-                                            <td>
-                                                <div class="star-inner">
-                                                    <input id="star1" type="checkbox" name="time" />
-                                                    <label for="star1"><i class="fas fa-star"></i></label>
-                                                    ETH/BTC
-                                                </div>
-                                            </td>
-                                            <td><span class="green-color">0.086583</span> </td>
-                                            <td><span class="red-color">-1.87</span></td>
-                                        </tr>
-                                        <tr class="clickable-row" data-href="">
-                                            <td>
-                                                <div class="star-inner">
-                                                    <input id="star1" type="checkbox" name="time" />
-                                                    <label for="star1"><i class="fas fa-star"></i></label>
-                                                    ETH/BTC
-                                                </div>
-                                            </td>
-                                            <td><span class="green-color">0.086583</span> </td>
-                                            <td><span class="red-color">-1.87</span></td>
-                                        </tr>
-                                        <tr class="clickable-row" data-href="">
-                                            <td>
-                                                <div class="star-inner">
-                                                    <input id="star1" type="checkbox" name="time" />
-                                                    <label for="star1"><i class="fas fa-star"></i></label>
-                                                    ETH/BTC
-                                                </div>
-                                            </td>
-                                            <td><span class="red-color">0.086583</span> </td>
-                                            <td><span class="green-color">-1.87</span></td>
-                                        </tr>
-                                        <tr class="clickable-row" data-href="">
-                                            <td>
-                                                <div class="star-inner">
-                                                    <input id="star1" type="checkbox" name="time" />
-                                                    <label for="star1"><i class="fas fa-star"></i></label>
-                                                    ETH/BTC
-                                                </div>
-                                            </td>
-                                            <td><span class="green-color">0.086583</span> </td>
-                                            <td><span class="red-color">-1.87</span></td>
-                                        </tr>
+                                        </tr>                                     
                                     </tbody>
                                 </table>
                             </div>

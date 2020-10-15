@@ -46,119 +46,56 @@
             gtag('config', 'AW-1045328140');
         </script>
     </head>
-    <body id="wrapper">
-        <div id="colorPanel" class="colorPanel">
-            <a id="cpToggle" href="#"></a>
-            <ul></ul>
-        </div>
+    <body id="wrapper">        
         <nav class="navbar navbar-expand-lg">
             <div class="container-fluid">
-                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarToggler" aria-controls="navbarToggler" aria-expanded="false" aria-label="Toggle navigation">
+                <a class="navbar-brand" href="../view/index.html">
+                  <img class="logo" src="../img/logo.png" alt="로고">COBWEB</a>
+                  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarToggler" aria-controls="navbarToggler" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
-                </button>
-                <a class="navbar-brand" href="index.html">
-                    <img class="logo" src="img/logo.png" alt="">
-                </a>
-                <div class="collapse navbar-collapse justify-content-md-center" id="navbarToggler">
+                  </button>           
+                  <div class="collapse navbar-collapse" id="navbarToggler">
+                    <ul class="navbar-nav">
+                      <li class="nav-item">
+                        <a class="nav-link" href="../view/trade.html">Market</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" href="../view/wallet.html">Wallet</a>
+                      </li>                 
+                    </ul>
                     <ul class="navbar-nav">
                         <li class="nav-item dropdown">
-                            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                                <img src="img/icons/exchange-icon.png">
-                                <span class="name">Exchange</span>
+                            <a class="nav-link dropdown-toggle" href="../view/dashbord.html" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Dashbord</a>
+                            <div class="dropdown-menu" aria-labelledby="navbarDropdown">                         
+                                <a class="dropdown-item" href="#">Open Orders
                             </a>
-                            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                                <a class="dropdown-item" href="trade.html">Basic
+                                <a class="dropdown-item" href="#">Oeder History
                             </a>
-                                <a class="dropdown-item" href="advanced.html">Advanced
+                                <a class="dropdown-item" href="../view/dashbord.html">Transaction History
                             </a>
                             </div>
                         </li>
-                        <!-- <li class="nav-item">
-                            <a class="nav-link" href="">
-                                <img src="img/icons/lab-icon.png">
-                                <span class="name">Labs</span>
-                            </a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="">
-                                <img src="img/icons/rocket-icon.png">
-                                <span class="name">LaunchPad</span>
-                            </a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link last" href="info.html">
-                                <img src="img/icons/info-icon.png">
-                                <span class="name">Info</span>
-                            </a>
-                        </li> -->
                     </ul>
-                    <ul class="navbar-nav ml-auto">
-                        <li class="nav-item dropdown">
-                            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Dashbord</a>
+                    <ul class="navbar-nav ml-auto">             
+                        <li class="nav-item dropdown"> <!--회원 정보-->
+                            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><i class="fas fa-user"></i></a>
                             <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                                <a class="dropdown-item" href="balances.html">Balances
-                            </a>
-                                <a class="dropdown-item" href="deposit.html">Deposits
-                            </a>
-                                <a class="dropdown-item" href="withdrawal.html">Withdrawals
-                            </a>
-                                <a class="dropdown-item" href="transaction-history.html">Transaction History
-                            </a>
-                            </div>
-                        </li>
-                        <li class="nav-item dropdown">
-                            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Orders</a>
-                            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                                <a class="dropdown-item" href="open-orders.html">Open Orders
-                            </a>
-                                <a class="dropdown-item" href="order-history.html">Order History
-                            </a>
-                                <a class="dropdown-item" href="trade-history.html">Trade History
-                            </a>
-                            </div>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="">Join Us</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="">Support</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="">News</a>
-                        </li>
-                        <li class="nav-item dropdown">
-                            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                                <i class="fas fa-user"></i>
-                            </a>
-                            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                                <a class="dropdown-item" href="profile.html">
-                                    <strong>Account</strong>
-                                    <br>
+                                <a class="dropdown-item" href="../view/profile.html">
+                                    <strong>Account</strong><br>
                                     <span>johndeo@gmail.com</span>
                                 </a>
-                                <a class="dropdown-item" href="balances.html">
-                                    <strong>Estimated Value</strong>
-                                    <br>
+                                <a class="dropdown-item" href="../view/dashbord.html">
+                                    <strong>Estimated Value</strong><br>
                                     <span>0.00045402 BTC</span>
                                 </a>
-                                <a class="dropdown-item" href="index.html">Logout
-                            </a>
-                            </div>
-                        </li>
-                        <li class="nav-item dropdown">
-                            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">English</a>
-                            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                                <a class="dropdown-item" href="">Deutsch
-                            </a>
-                                <a class="dropdown-item" href="">Francais
-                            </a>
+                                <a class="dropdown-item" href="../view/index.html">
+                                    Logout
+                                </a>
                             </div>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link language-btn" href="">
-                                <img src="img/icons/translate-icon.png">
-                            </a>
-                        </li>
+                            <a class="nav-link" href="../view/login.html">Logout</a>
+                        </li>                       
                     </ul>
                 </div>
             </div>

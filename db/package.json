@@ -1,0 +1,25 @@
+{
+    "name": "database",
+    "version": "0.0.0",
+    "private": true,
+    "dependencies": {
+        "express": "*",
+        "ejs": "*",
+        "body-parser": "*",
+        "cookie-parser": "*",
+        "express-session": "*",
+        "mysql2": "*",
+        "passport": "*",
+        "passport-local": "*",
+        "connect-flash": "*",
+        "errorhandler": "*",
+        "express-error-handler": "*",
+        "passport-facebook": "*",
+        "passport-google-oauth": "*",
+        "passport-twitter": "*",
+        "serve-static": "*",
+        "pbkdf2-password": "*",
+        "express-mysql-session": "*",
+        "web3": "*"
+    }
+}
